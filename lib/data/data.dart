@@ -5,7 +5,7 @@ import 'package:portfolio/models/project_model.dart';
 Color kGradient1 = Colors.blueAccent;
 Color kGradient2 = Colors.pinkAccent;
 
-String imagePath = "images/Title.jpg";
+String imagePath = "assets/images/manish.jpeg";
 
 //String data to modify
 String name = "Manish Chawla";
