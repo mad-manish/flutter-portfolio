@@ -2,57 +2,56 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/models/project_model.dart';
 
 //Update with colors of your choice for dp background gradient
-Color kGradient1 = Colors.purple;
+Color kGradient1 = Colors.blueAccent;
 Color kGradient2 = Colors.pinkAccent;
 
-String imagePath = "images/aditya.jpeg";
+String imagePath = "images/Title.jpg";
 
 //String data to modify
-String name = "Your Name";
-String username = "flutterroles";
+String name = "Manish Chawla";
+String username = "m4dmanish";
 
 //Link to resume on Google Drive
 String resumeLink =
-    "https://drive.google.com/file/d/1uZPqMWva6pZxzQxsR_ILLZ_FxJr24QeY/view?usp=sharing";
+// "https://drive.google.com/file/d/1uZPqMWva6pZxzQxsR_ILLZ_FxJr24QeY/view?usp=sharing"
+    "https://drive.google.com/file/d/12ANngGJriZmj7tE1_w56-1XnP-j5AiMv/view?usp=sharing";
 
 //Contact Email
-String contactEmail = "mail@adityathakur.in";
+String contactEmail = "manish@0319@gmail.com";
 
 String aboutWorkExperience = '''
-Hello I am a freelancer
+Hi ! My current experiences are as 
 
-He has previously been a speaker at the Flutter Global Summit'21, Flutter Vikings and events across colleges, universities (like VIT Chennai, Vellore, MIT-ADT), and clubs (IEEE APSIT, SFIT, GirlScript, GeeksforGeeks Student Chapter, Google CrowdSource, and more) here in India. 
+Freelancer | Web Developer | Facebook Google Ads | Social Media Strategist & Planner | SEO | SMM | PPC
+
+I have combined experience of sales and marking of 7+ years, kindly refer to my resume for brief details.
 ''';
 
 String aboutMeSummary = '''
-Aditya is a content creator and has over 5K subscribers on YouTube and a 700+ member community on Discord. 
-📺 YouTube Channel: watch.adityathakur.in
-🚀 Discord Community: discord.adityathakur.in
+Manish is a content creator and has over 15K followers on Rooter and a 700+ member community on Youtube. 
+📺 Rooter Channel: https://web.rooter.gg/profile/14963186
+🚀 Youtube Community: https://www.youtube.com/channel/UCJm7Oj1Cj5sL8svU72cBqQQ
 ''';
 
-String location = "Dharamshala, India";
-String website = "adityathakur.in";
-String portfolio = "adityathakurxd";
-String email = "mail@adityathakur.in";
+String location = "Vapi, Gujarat, India";
+String website = "madsolutions.in";
+String portfolio = "mad-manish";
+String email = "manish@0319@gmail.com";
 
 List<Project> projectList = [
   Project(
-      name: "Shades",
+      name: "Content Writing",
       description:
-          "Winner IEEE Mandi 'Go Online' Challenge at Electrothon, NIT Hamirpur.",
-      link: "https://github.com/adityathakurxd/shades"),
+      "Written few articles on given topics for the gaming websites.",
+      link: "https://docs.google.com/document/d/1yv0G8Xjy4ElXgU70BuDIImu3wJe73lhlOPI4_HSysVM/edit?usp=sharing"),
   Project(
-      name: "Fiasco",
+      name: "Web Development",
       description:
-          "Fiasco is one stop solution to help you manage Family expenses in one place!",
-      link: "https://github.com/adityathakurxd/fiasco"),
-  Project(
-      name: "Fiasco",
-      description:
-          "Fiasco is one stop solution to help you manage Family expenses in one place!",
-      link: "https://github.com/adityathakurxd/fiasco"),
+      "Have made and managed mulitple websites based on client's requirements",
+      link: "https://ownasmuf.com"),
+
   Project(
       name: "Flutter Portfolio",
-      description: "A template for Portfolio",
-      link: "https://github.com/adityathakurxd/flutter-portfolio")
+      description: "A github Portfolio",
+      link: "https://github.com/mad-manish/flutter-portfolio")
 ];
